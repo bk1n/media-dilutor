@@ -15,25 +15,3 @@ def additive_dilution(starting_volume: int|float,
     print('Total volume:', round(sum(sol) + starting_volume, 2))
     print(*[k + ' : ' + str(round(v, 2)) for k,v in zip(dilutor_names, sol)], sep = '\n') 
     return(sol)
-
-if __name__ == '__main__':
-    # add arguments here
-    # all volumes & concentrations should be in the same units
-    ## volume of media
-    starting_volume = 500
-    ## names of dilutants
-    dilutor_names = [
-        'sodium_pyruvate', 
-        'bovine_insulin', 
-        'l_glutamine'
-        ]
-    ## initial concentrations of dilutants 
-    initial_concs = [200, 100, 100]
-    ## final concentrations of dilutants
-    final_concs = [5, 2, 1]
-
-    additive_dilution(starting_volume=starting_volume,
-                      dilutor_names=dilutor_names,
-                      initial_concentrations=initial_concs,
-                      final_concentrations=final_concs)
-

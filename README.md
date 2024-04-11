@@ -5,9 +5,8 @@ Currently, only additive dilutions are included. Starting with a set volume of m
 
 ## Requirements
 1. Python 3.x
-2. pip
 
 ## Install
 ```Python
-pip install ...
+pip install git+https://github.com/bk1n/media-dilutor.git
 ```

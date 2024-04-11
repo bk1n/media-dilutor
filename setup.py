@@ -6,8 +6,5 @@ setup(
     packages=find_packages(),
     url='https://github.com/bk1n/media-dilutor',
     author='Ben King',
-    description='Package to calculate dilutions',
-    install_requires=[
-        'math'
-    ],
+    description='Package to calculate dilutions'
 )

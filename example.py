@@ -5,17 +5,17 @@ from mediadilutor import additive_dilution
 ## volume of media
 starting_volume = 500
 
-## names of dilutants
+## names of diluents
 dilutor_names = [
     'sodium_pyruvate', 
     'bovine_insulin', 
     'l_glutamine'
     ]
 
-## initial concentrations of dilutants 
+## initial concentrations of diluents 
 initial_concs = [200, 100, 100]
 
-## final concentrations of dilutants
+## final concentrations of diluents
 final_concs = [5, 2, 1]
 
 # run additive dilution
